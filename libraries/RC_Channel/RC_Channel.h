@@ -624,6 +624,7 @@ protected:
         USE_CRSF_LQ_AS_RSSI     = (1U << 11), // returns CRSF link quality as RSSI value, instead of RSSI
         CRSF_FM_DISARM_STAR     = (1U << 12), // when disarmed, add a star at the end of the flight mode in CRSF telemetry
         ELRS_420KBAUD           = (1U << 13), // use 420kbaud for ELRS protocol
+        AUTO_SWITCH_TO_FBWA_WITH_STICKS  = (1U << 20), // plane only: switch to FBWA when in AUTO and moving sticks more than 10%
         PLANE_SWITCH_TO_MANUAL_AFTER_DISARMING  = (1U << 21), // plane only: switch to manual after disarming and re-read mode switch when arming
         PLANE_DISABLE_MAN_BAT_COMP  = (1U << 22), // plane only: disable throttle battery voltage compensation in manual mode
         PLANE_DISABLE_MAN_THR_EXPO  = (1U << 23), // plane only: disable throttle expo in manual mode
