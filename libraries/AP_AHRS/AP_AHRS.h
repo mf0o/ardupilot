@@ -35,7 +35,7 @@
 #endif
 
 #ifndef HAL_NAVEKF2_AVAILABLE
-#define HAL_NAVEKF2_AVAILABLE 1
+#define HAL_NAVEKF2_AVAILABLE 0
 #endif
 #endif
 
